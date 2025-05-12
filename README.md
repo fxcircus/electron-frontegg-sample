@@ -16,8 +16,13 @@ This is a sample Electron application that demonstrates integration with Fronteg
    ```
 3. Create a `.env` file in the root directory with your Frontegg credentials:
    ```
-   VITE_FRONTEGG_BASE_URL=your_base_url
+   # Client ID from Frontegg Portal ➜ [ENVIRONMENT] ➜ Env Settings page
    VITE_FRONTEGG_CLIENT_ID=your_client_id
+
+   # Login URL (without the /oauth) from Frontegg Portal ➜ [ENVIRONMENT] ➜ Applications ➜ Your app
+   VITE_FRONTEGG_BASE_URL=your_base_url
+   
+   # Application ID (without the /oauth) from Frontegg Portal ➜ [ENVIRONMENT] ➜ Applications ➜ Your app
    VITE_FRONTEGG_APP_ID=your_app_id
    ```
 
